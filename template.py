@@ -8,13 +8,13 @@ logging.basicConfig(
 )
 
 
-package_name = 'project name'                                                   # Change the project name
+package_name = 'text_summarizer'
 
 list_of_files = [
     
     "LICENSE",
     "README.md",
-    "images/.gitkeep",                                                          # supporting images for github readme
+    "images/.gitkeep",
     
     "setup.py",
     "requirements.txt",
@@ -24,6 +24,7 @@ list_of_files = [
     "params.yaml",
     
     f"src/{package_name}/__init__.py",
+    f"src/{package_name}/logging/__init__.py",
     f"src/{package_name}/entity/__init__.py",
     f"src/{package_name}/config/__init__.py",
     f"src/{package_name}/config/configuration.py",
@@ -40,20 +41,10 @@ list_of_files = [
     
     "dvc.yaml",
     
-    'app.py',                                                                   # for creating the flask application 
-    'templates/index.html',                                                     # for creating the ui for the application
-    'static/styles.css',
+    'app.py',
     
     "Dockerfile",
     ".github/workflows/main.yaml",
-    
-    # 'tests/unit/__init__.py',                            # folder for unit testing
-    # 'tests/unit/unit.py',
-    # 'tests/integration/__init__.py',                     # folder for integration testing
-    # 'tests/integration/integration.py',
-    # 'setup.cfg',
-    # 'pyproject.toml',
-    # 'tox.ini',                                          # to test the project in the local environment
 
 ]
 

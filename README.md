@@ -1,16 +1,3 @@
-1. Use this repo as template and create githbub repo
-2. Pull the github repo to local
-3. Create virtual environment.
-    1. ```conda create -p venv python==3.11```
-    2. ``` conda activate venv/```
-3. Make changes in "template.py" and run
-4. Make changes in "setup.py" and add '-e .' to "requriements.txt"
-5. Run "pip install -r requirements.txt"
-6. Delete all the above comments.
-
-
----
-
 <h1 align="center">Generic Data Science Project Template</h1>
 
 ---

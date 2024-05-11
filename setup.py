@@ -15,10 +15,10 @@ def get_requirements(file_name:str) -> List[str]:
 
 
 __version__ = "0.0.0"
-SRC_REPO = "package_name"                              # Change the repo name
+SRC_REPO = "text_summarizer"
 AUTHOR_USER_NAME = "DarshanRokkad"
 AUTHOR_EMAIL = "darshanrokkad2003@gmail.com"
-REPO_NAME = "Github-Repo-Name"                         # Change this repo name
+REPO_NAME = "Text_Summarizer"
 
 setup(
     name=SRC_REPO,
